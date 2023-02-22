@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>65022353_Final</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div id="mainBox">
+        <div class="item">
+            <h1>Insert data</h1>
+            <h3>Name</h3>
+            <input id="inputBox" type="text">
+            <h3>Surname</h3>
+            <input id="inputBox" type="text">
+            <h3>Gender</h3>
+            <select id="inputBox" name="ไม่ระบุ" id="genderSelect">
+                <option value="ไม่ระบุ">ไม่ระบุ</option>
+                <option value="ชาย">ชาย</option>
+                <option value="หญิง">หญิง</option>
+            </select>
+            <h3>Birth Date</h3>
+            <input id="inputBox" type="date">
+
+            
+            <br> <button id="AddButton" onclick="AddButton()"> Add </button> 
+        </div>
+    </div>
+
+    
+        
+    <table id="table" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Gender</th>
+                <th>Birth date</th>
+            </tr>
+        </thead>
+    </table>
+    
+    
+    <script src="final.js"></script>
+</body>
+</html>
